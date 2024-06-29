@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(pol-utng.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    margin-top: 10%;
+    align-self: center;
+}
+
+.contenedor {
+    width: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 2rem;
+    color: #265197;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.formulario {
+    margin-top: 1.5rem;
+}
+
+.salida-grupo {
+    margin-top: 0.2rem;
+    font-size: 0.87rem;
+    line-height: 1.2rem;
+}
+
+.salida-grupo label {
+    display: block;
+    color: rgb(6, 55, 141);
+    margin-bottom: 4px;
+}
+
+.salida-grupo input {
+    width: 100%;
+    padding-right: 1rem;
+    border: 1px solid #1a2537;
+    outline: 0;
+    background-color: #eeeaea;
+    padding: 0.7rem 1rem;
+    color: #1a2537;
+}
+
+.salida-grupo input:focus {
+    border-color: #1a2537;
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    color: rgb(4, 51, 133);
+    margin: 8px 0 14px 0;
+}
+
+.forgot a,
+.registro a {
+    color: #1a2537;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot a:hover,
+.registro a:hover {
+    text-decoration: underline #1a2537;
+}
+
+.inicio {
+    display: block;
+    width: 100%;
+    background-color: #1a2537;
+    padding: 0.75rem;
+    text-align: center;
+    color: #eadfdf;
+    border: none;
+    font-weight: 600;
+}
+
+.registro {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(7, 46, 114);
+}
+select {
+    width: 100%;
+    padding-right: 1rem;
+    border: 1px solid #1a2537;
+    outline: 0;
+    background-color: #e4e2e2;
+    padding: 0.75rem 1rem;
+    color: #1a2537;
+}
+textarea {
+    width: 100%;
+    padding-right: 1rem;
+    border: 1px solid #1a2537;
+    outline: 0;
+    background-color: #e5e3e3;
+    padding: 0.75rem 1rem;
+    color: #1a2537;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario .salida-grupo {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.input-icon input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    box-sizing: border-box;
+}
+
+.forgot {
+    text-align: right;
+}
+
+.forgot a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.registro {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.registro:hover {
+    background-color: #033972;
+}
